@@ -4,8 +4,9 @@ from spotipy.oauth2 import SpotifyOAuth
 # This is hardcoded into David (the maker of this)'s spotify right now.
 # Functionality to change this coming soon
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="a92c07c6d5ea43e499f1118cf467fe96",         # Replace with your Client ID
-    client_secret="36f9201e4a2f4425a66b392af7f34d70", # Replace with your Client Secret
+    # to get your ids, go to spotify developer
+    client_id="ENTER ID HERE",         # Replace with your Client ID
+    client_secret="ENTER ID HERE", # Replace with your Client Secret
     redirect_uri="http://localhost:8888/callback",  # Use the same redirect URI in your Spotify app
     scope=["user-library-read", "user-read-playback-state", "user-modify-playback-state"]
 ))
