@@ -7,3 +7,4 @@ Requirements :
  - Tkinter                 (pip install tkinter)
  - Spotipy                 (pip install spotipy)
  - Google.generativeAI     (pip install -q -U google-generativeai)
+in order to run it run main.py
